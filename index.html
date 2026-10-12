@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ArchJerry Labs</title>
+<meta name="description" content="ArchJerry Labs - a two-brother studio. Arch builds the structure, Jerry makes it beautiful.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<style>
+:root{--bg:#0E120E;--card:#161B16;--line:#263026;--ink:#F1F3EC;--mute:#98A398;--lime:#B4F241;--jerry:#FF7A59;--aj:#5CC8FF}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+nav{position:sticky;top:0;background:rgba(14,18,14,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;text-decoration:none}
+.brand img{width:30px;height:30px}
+nav ul{display:flex;gap:20px;list-style:none;padding:0}
+nav ul a{color:var(--mute);text-decoration:none;font-size:14px}
+nav ul a:hover{color:var(--ink)}
+.hero{padding:88px 0 72px;text-align:center}
+.hero img{width:96px;height:96px}
+h1{font-size:clamp(40px,9vw,76px);line-height:1.05;letter-spacing:-.03em;margin:22px 0 14px}
+h1 .a{color:var(--ink)}h1 .j{color:var(--jerry)}h1 .l{color:var(--lime)}
+.tag{font-size:clamp(17px,3.5vw,22px);color:var(--mute);max-width:560px;margin:0 auto}
+.tag b{color:var(--ink);font-weight:600}
+.btns{margin-top:30px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn{padding:12px 22px;border-radius:999px;text-decoration:none;font-weight:600;font-size:15px;border:1px solid var(--line)}
+.btn.p{background:var(--lime);color:#10150a;border-color:var(--lime)}
+section{padding:64px 0;border-top:1px solid var(--line)}
+h2{font-size:clamp(26px,5vw,36px);letter-spacing:-.02em;margin-bottom:8px}
+.sub{color:var(--mute);margin-bottom:34px;max-width:620px}
+.grid{display:grid;gap:16px}
+.two{grid-template-columns:1fr 1fr}
+.three{grid-template-columns:repeat(3,1fr)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px}
+.card h3{font-size:22px;margin-bottom:4px}
+.ph{width:84px;height:84px;border-radius:50%;margin-bottom:16px;display:grid;place-items:center;font-size:34px;font-weight:800;overflow:hidden;border:2px solid currentColor}.ph img{width:100%;height:100%;object-fit:cover}
+.role{font-size:13px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:14px}
+.card p{color:var(--mute)}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:8px}
+.fam h3{font-size:18px;margin-bottom:12px;display:flex;align-items:center}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font-size:14px;padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:#111611}
+.chip small{color:var(--mute);margin-left:6px;font-size:12px}
+.note{color:var(--mute);font-size:13px;margin-top:14px}
+.built .top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px;flex-wrap:wrap}
+.badge{font-size:12px;padding:3px 10px;border-radius:999px;background:rgba(180,242,65,.12);color:var(--lime)}
+.card a.l{color:var(--lime);text-decoration:none;font-size:14px;font-weight:600}
+.quote{font-size:clamp(24px,5vw,40px);font-weight:700;letter-spacing:-.02em;text-align:center;line-height:1.2}
+footer{border-top:1px solid var(--line);padding:34px 0;color:var(--mute);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:760px){.two,.three{grid-template-columns:1fr}nav ul{gap:14px}nav ul li.h{display:none}.hero{padding:60px 0 48px}section{padding:48px 0}}
+</style></head><body>
+<nav><div class="wrap"><a class="brand" href="#top"><img src="assets/arch-mark.svg" alt="">ArchJerry Labs</a>
+<ul><li><a href="#founders">Founders</a></li><li><a href="#family">Products</a></li><li class="h"><a href="#built">Built</a></li><li><a href="#contact">Links</a></li></ul></div></nav>
+<header class="hero" id="top"><div class="wrap">
+<img src="assets/arch-mark.svg" alt="ArchJerry Labs mark">
+<h1><span class="a">Arch</span><span class="l">Jerry</span> <span class="j">Labs</span></h1>
+<p class="tag">Two brothers. One studio. <b>Arch builds the structure, Jerry makes it beautiful.</b></p>
+<div class="btns"><a class="btn p" href="#built">See what we've built</a><a class="btn" href="#family">The roadmap</a></div>
+</div></header>
+
+<section id="founders"><div class="wrap">
+<h2>The two of us</h2><p class="sub">The studio is built on how we actually are. One of us ships systems, the other draws the world they live in.</p>
+<div class="grid two">
+<div class="card"><!-- PHOTO: replace the letter with <img src="assets/arch.jpg" alt="Arch"> --><div class="ph" style="color:var(--lime)">A</div><div class="role" style="color:var(--lime)">Founder</div><h3>Arch</h3><p>Anubhav Chakraborty. ECE student at MIT ADT Pune who builds hardware and software. Made the VayuDrishti weather app, the SeArch browser and ScamDefender. Arch is the structure: code, systems, how things work.</p></div>
+<div class="card"><!-- PHOTO: replace the letter with <img src="assets/jerry.jpg" alt="Jerry"> --><div class="ph" style="color:var(--jerry)">J</div><div class="role" style="color:var(--jerry)">Co-founder</div><h3>Jerry</h3><p>Arch's younger brother, an 8th-grade artist. Drawing is his thing, and he decides how everything looks and feels. Jerry is the finish: design, imagination, and the eye that finds what's off.</p></div>
+</div>
+<p class="quote" style="margin-top:56px">"Built by Arch, broken by Jerry."</p>
+</div></section>
+
+<section id="built"><div class="wrap">
+<h2>What we've built</h2><p class="sub">Real projects, shipped and live.</p>
+<div class="grid three built">
+<div class="card"><div class="top"><h3>SeArch</h3><span class="badge">Browser</span></div><p>Our own browser, with the search pun in the name. Early, v0.1.1, and actively growing.</p></div>
+<div class="card"><div class="top"><h3>VayuDrishti</h3><span class="badge">Weather app</span></div><p>A weather app for air and sky conditions.</p><p style="margin-top:12px"><a class="l" href="https://vayudrishti-arch.github.io/">Open the app &rarr;</a></p></div>
+<div class="card"><div class="top"><h3>ScamDefender</h3><span class="badge">Safety</span></div><p>A tool that helps people spot scams before they fall for one.</p><p style="margin-top:12px"><a class="l" href="https://chkanubhav09.github.io/ScamDefender/">Open ScamDefender &rarr;</a></p></div>
+</div></div></section>
+
+<section id="family"><div class="wrap">
+<h2>The family we're building toward</h2><p class="sub">Our long-term plan: a full suite of everyday tools, with Jerry the assistant living inside every one. None of the names below are released yet. This is the roadmap, not the shelf.</p>
+<div class="grid" style="gap:18px">
+<div class="card fam"><h3><span class="dot" style="background:var(--lime)"></span>Arch &middot; productivity</h3><div class="chips">
+<span class="chip">ArchDocs<small>docs</small></span><span class="chip">ArchSheets<small>sheets</small></span><span class="chip">ArchDeck<small>slides</small></span><span class="chip">ArchNotes<small>notes</small></span><span class="chip">ArchMail<small>mail</small></span><span class="chip">ArchCloud<small>storage, later</small></span></div></div>
+<div class="card fam"><h3><span class="dot" style="background:var(--jerry)"></span>Jerry &middot; creative</h3><div class="chips">
+<span class="chip">JerryIMG<small>images</small></span><span class="chip">JerryCut<small>video</small></span><span class="chip">JerryFX<small>effects</small></span><span class="chip">JerryVector<small>vector</small></span><span class="chip">JerryLight<small>photo</small></span><span class="chip">JerryWaves<small>audio</small></span><span class="chip">JerryPage<small>layout</small></span></div></div>
+<div class="grid two">
+<div class="card fam"><h3><span class="dot" style="background:var(--aj)"></span>AJ &middot; engineering</h3><div class="chips"><span class="chip">AJCAD<small>CAD</small></span></div></div>
+<div class="card fam"><h3><span class="dot" style="background:var(--ink)"></span>SeArch &middot; browser</h3><div class="chips"><span class="chip">SeArch<small>in progress</small></span></div></div>
+</div></div>
+<p class="note">Jerry also lives inside every app as the assistant: answers questions, checks your work, breaks things before users can.</p>
+</div></section>
+
+<section id="contact"><div class="wrap">
+<h2>Find us</h2><p class="sub">Code, projects and everything we ship goes up here.</p>
+<div class="btns" style="justify-content:flex-start"><a class="btn p" href="https://github.com/chkanubhav09">GitHub</a><a class="btn" href="https://vayudrishti-arch.github.io/">VayuDrishti</a><a class="btn" href="https://chkanubhav09.github.io/ScamDefender/">ScamDefender</a></div>
+</div></section>
+<footer><div class="wrap"><span>&copy; 2026 ArchJerry Labs</span><span>Arch &amp; Jerry. Built in India.</span></div></footer>
+</body></html>
