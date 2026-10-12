@@ -13,7 +13,7 @@ a{color:inherit}
 .wrap{max-width:1040px;margin:0 auto;padding:0 22px}
 nav{position:sticky;top:0;background:rgba(14,18,14,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:5}
 nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
-.brand{display:flex;align-items:center;gap:10px;font-weight:700;text-decoration:none}
+.brand{white-space:nowrap;display:flex;align-items:center;gap:10px;font-weight:700;text-decoration:none}
 
 nav ul{display:flex;gap:20px;list-style:none;padding:0}
 nav ul a{color:var(--mute);text-decoration:none;font-size:14px}
@@ -50,7 +50,7 @@ h2{font-size:clamp(26px,5vw,36px);letter-spacing:-.02em;margin-bottom:8px}
 .quote{font-size:clamp(24px,5vw,40px);font-weight:700;letter-spacing:-.02em;text-align:center;line-height:1.2}
 footer{border-top:1px solid var(--line);padding:34px 0;color:var(--mute);font-size:14px}
 footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-@media(max-width:760px){.two,.three{grid-template-columns:1fr}nav ul{gap:14px}nav ul li.h{display:none}.hero{padding:60px 0 48px}section{padding:48px 0}}
+@media(max-width:760px){.two,.three{grid-template-columns:1fr}nav ul{gap:12px}.brand{font-size:15px;gap:8px}nav ul a{font-size:13px}nav ul li.h{display:none}.hero{padding:60px 0 48px}section{padding:48px 0}}
 </style></head><body>
 <nav><div class="wrap"><a class="brand" href="#top"><span class="nm"><svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><circle cx="64" cy="64" r="53" fill="none" stroke="#F2F4EC" stroke-width="7"/><circle cx="104" cy="30" r="10" fill="#B4F241"/><circle cx="26.5" cy="101.5" r="7" fill="#FF8A3D"/><circle cx="64" cy="117" r="7" fill="#38BDF8"/><g fill="none" stroke="#F2F4EC" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" color="#F2F4EC"><path d="M33 86L48 44L63 86 M39 73H57 M82 44V74Q82 88 70 88"/></g></svg></span>ArchJerry Labs</a>
 <ul><li><a href="#founders">Founders</a></li><li><a href="#family">Products</a></li><li class="h"><a href="#built">Built</a></li><li><a href="#contact">Links</a></li></ul></div></nav>
